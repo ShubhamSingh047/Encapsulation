@@ -10,7 +10,7 @@ class C implements inter{
     }
 }
 
-class Main extends C{
+class Main{
     public static void main(String[] args) {
         inter r = new C();
         r.m1();
