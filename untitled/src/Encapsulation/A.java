@@ -1,6 +1,6 @@
 package Encapsulation;
 
-public class A {
+class A {
     private int a;
     public void setValue(int a){
         this.a=a;
