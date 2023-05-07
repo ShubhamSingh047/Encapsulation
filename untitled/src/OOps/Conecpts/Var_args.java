@@ -1,7 +1,7 @@
 package OOps.Conecpts;
 
 public class Var_args {
-    void add(int ...a){ //var-args intoduced in 1.5 version
+    void add(int ...a){ //var-args introduced in 1.5 version
         int sum=0;
         for(int x:a){
             sum+=x;
