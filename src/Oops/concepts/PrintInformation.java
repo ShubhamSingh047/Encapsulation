@@ -10,6 +10,7 @@ public class PrintInformation {
             System.out.println("File Writabale: "+f.canWrite());
             System.out.println("File Readable: "+f.canRead());
             System.out.println("File Size: "+f.length());
+            System.out.println("File Removed: "+f.delete());
         }else{
             System.out.println("File does not exist");
         }
